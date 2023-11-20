@@ -166,8 +166,6 @@ public class challenge extends javax.swing.JFrame {
                         JOptionPane.showMessageDialog(this, "Login berhasil");
                         halaman_utama mainForm = new halaman_utama();
                         mainForm.setVisible(true);
-
-                    // Tutup form login
                     this.dispose();
                     } else {
                         JOptionPane.showMessageDialog(this, "username atau password anda salah.");
